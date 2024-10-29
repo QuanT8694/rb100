@@ -28,3 +28,7 @@ puts movies["back_to_the_future"]
 puts movies["the_silence_of_the_lambs"]
 puts movies["jurassic_park"]
 
+puts "Using each method."
+
+movies.each { |movie, year| puts year 
+}
